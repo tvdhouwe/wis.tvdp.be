@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74aced80-4a49-4ecb-afd7-19b9861229e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bss.css" afterPath="$PROJECT_DIR$/css/bss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajsc.js" afterPath="$PROJECT_DIR$/js/ajsc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/calmap.js" afterPath="$PROJECT_DIR$/js/calmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/error_log" afterPath="$PROJECT_DIR$/json/error_log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/events.php" afterPath="$PROJECT_DIR$/json/events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wis.tvdp.be.iws" />
@@ -29,7 +33,53 @@
       <file leaf-file-name="bss.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="97305">
+            <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="97305">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajsc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ajsc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="3630">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="125" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-13.75" vertical-offset="840" max-vertical-offset="2880">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dt.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/dt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json/events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="46" selection-start="0" selection-end="6031" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3315">
               <folding />
             </state>
           </provider>
@@ -56,9 +106,11 @@
         <option value="$PROJECT_DIR$/js/gmaps.js" />
         <option value="$PROJECT_DIR$/views/intro.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/bss.css" />
         <option value="$PROJECT_DIR$/js/ajsc.js" />
         <option value="$PROJECT_DIR$/views/home.html" />
-        <option value="$PROJECT_DIR$/css/bss.css" />
+        <option value="$PROJECT_DIR$/json/dt.php" />
+        <option value="$PROJECT_DIR$/json/events.php" />
       </list>
     </option>
   </component>
@@ -236,6 +288,11 @@
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/json" />
+    </key>
+  </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://wis.tvdp.be/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
@@ -312,6 +369,15 @@
       <created>1386789349928</created>
       <updated>1386789349928</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test commit and push">
+      <created>1386796840027</created>
+      <updated>1386796840027</updated>
+    </task>
+    <task id="LOCAL-00002" summary="events toevoegen">
+      <created>1386797205910</created>
+      <updated>1386797205910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,15 +387,16 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08342857" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -347,7 +414,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Test commit and push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test commit and push" />
+    <MESSAGE value="events toevoegen" />
+    <MESSAGE value=" datum in lijst events krijgen" />
+    <option name="LAST_COMMIT_MESSAGE" value=" datum in lijst events krijgen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -389,22 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="72" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.52" vertical-offset="360" max-vertical-offset="2355">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajsc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="16" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.45516303" vertical-offset="745" max-vertical-offset="3645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="5" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.49933246" vertical-offset="661" max-vertical-offset="2265">
@@ -421,9 +474,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/json/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="46" selection-start="0" selection-end="6031" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/dt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="125" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-13.75" vertical-offset="840" max-vertical-offset="2880">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajsc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="3630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="97305">
+        <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="97305">
           <folding />
         </state>
       </provider>

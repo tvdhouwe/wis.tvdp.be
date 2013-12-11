@@ -10,7 +10,7 @@
  });
  }
  
-  var clientId = '840677805517-a26kd03l2qhdb09s5l6vl3gfvpj9hnpa.apps.googleusercontent.com';
+  var clientId = '840677805517-039p2jc2v17aesf4pf19evmhvm0n2b68.apps.googleusercontent.com';
     var apiKey = 'AIzaSyDMYqPc522nXn00x95hu3sRWunD47J7NNQ';
     var scopes = 'https://www.googleapis.com/auth/calendar';
     

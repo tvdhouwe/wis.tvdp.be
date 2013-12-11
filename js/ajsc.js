@@ -47,8 +47,8 @@ wisApp.filter('isStatus', function () {
 
 wisApp.factory('eventsFactory',function($http) {
  return {
-      getEventsAsync: function(callback) {
-          $http.post('json/testtypes.php',{}).success(callback);
+      getEventsBrowse: function(callback) {
+          $http.post('json/events.php',{action:"browse"}).success(callback);
       }
   };
 })
@@ -77,16 +77,11 @@ $scope.$on('$viewContentLoaded', function() {
 });
 
 $("li[mn]").removeClass("active"); 
-$("li[id='mn_home']").addClass("active"); //set corect menu item active
+$("li[id='mn_home']").addClass("active"); //set correct menu item active
 
 
-eventsFactory.getEventsAsync(function(results) {
+eventsFactory.getEventsBrowse(function(results) {
       $scope.events = results.events;
-      
-   
-
-      
-      
     
   });
 
@@ -103,12 +98,16 @@ eventsFactory.getEventsAsync(function(results) {
 };
 controllers.intro = function($scope) {
 $("li[mn]").removeClass("active"); 
-$("li[id='mn_intro']").addClass("active"); //set corect menu item active
+$("li[id='mn_intro']").addClass("active"); //set correct menu item active
  
 $scope.$on('$viewContentLoaded', function() {
 //createMapIntro();
+
+	createMap({
+        center: new google.maps.LatLng(50.85034,4.35171),
+        zoom: 10
+    }, "map_intro");
     createEventMarkers();
-	createMap(undefined, "map_intro");
 
 });
 
@@ -117,7 +116,7 @@ $scope.$on('$viewContentLoaded', function() {
 
 controllers.calendar = function($scope) {
 $("li[mn]").removeClass("active"); 
-$("li[id='mn_cal']").addClass("active"); //set corect menu item active
+$("li[id='mn_cal']").addClass("active"); //set correct menu item active
  
 $scope.$on('$viewContentLoaded', function() {
 handleAuthClick()
@@ -127,13 +126,13 @@ handleAuthClick()
 
 controllers.profile = function($scope) {
 $("li[mn]").removeClass("active"); 
-$("li[id='mn_prof']").addClass("active"); //set corect menu item active
+$("li[id='mn_prof']").addClass("active"); //set correct menu item active
 
 };
 
 controllers.signup = function($scope) {
 $("li[mn]").removeClass("active"); 
-$("li[id='mn_signup']").addClass("active"); //set corect menu item active
+$("li[id='mn_signup']").addClass("active"); //set correct menu item active
 
 };
 

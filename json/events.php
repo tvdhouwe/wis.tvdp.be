@@ -1,7 +1,7 @@
 <?php
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(-1);
+//ini_set('display_errors',1);
+//ini_set('display_startup_errors',1);
+//error_reporting(-1);
 
 
 
@@ -65,7 +65,7 @@ function read_event($idevent) {
 	$sql = "
 SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture, username 
 FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
-WHERE idevent = $idevent
+WHERE idevents = $idevent
 ";
 	$result = mysql_query($sql) or die("Could not query\n$sql\n$result");
 
@@ -83,7 +83,7 @@ WHERE idevent = $idevent
 		'enddatetime' 	=> $row['enddatetime'],
 		'pricerange' 	=> $row['pricerange'],
 		'createdby' 	=> $row['createdby'],
-		// 'address' 		=> $row['address'],
+	     'address' 		=> $row['address'],
 		'food' 			=> $row['food'],
 		'party' 		=> $row['party'],
 		'culture' 		=> $row['culture'],
@@ -106,13 +106,13 @@ function browse_events() {
 
 	// Query the information of events where start date lies in future
 	$sql = "
-SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, address, food, party, culture, username 
+SELECT title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, address, food, party, culture, username
 FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
 WHERE startdatetime > '" . date("Y-m-d H:i:s") . "'
 ORDER BY startdatetime ASC
 LIMIT 0, 50
 ";
-	$sql = "SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture
+	$sql = "SELECT title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, food, party, culture
 FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
 WHERE startdatetime > '" . date("Y-m-d H:i:s") . "'
 ORDER BY startdatetime ASC
@@ -188,24 +188,25 @@ function create_event($jdec) {
 	$culture =  	ifset($jdec, 'culture', '0');
 	
 	$sql = "
-INSERT INTO events (title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture) 
+INSERT INTO events (title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, food, party, culture)
        VALUES ('$title', '$description', '$image', '$startdatetime', '$enddatetime', '$pricerange', $createdby, $food, $party, $culture)
 	   ";
 	   
-	$result = mysql_query($sql) or die("Could not query\n$sql\n$result");
+	$result = mysql_query($sql) or die(mysql_error());
 
 	// If insert succeeded, $result will hold the user id
-	if(mysql_num_rows($result)){
+	if($result){
 	   
 		// grab row
-		$row=mysql_fetch_array($result);
+		// $row=mysql_fetch_array($result);
 		
 		// echo result
-		echo '{"result":'. $row[0] . '}';
+		// echo '{"result":'. $row[0] . '}';
+		echo '{"result":"true"}';
 		
 	} else {
 		// else return -1
-		echo '{"result":"-1"}';
+		echo '{"result":"false"}';
 	}
 }
 

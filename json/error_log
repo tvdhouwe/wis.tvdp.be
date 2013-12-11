@@ -4,3 +4,9 @@
 [10-Dec-2013 21:33:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected T_PLUS_EQUAL in /home/tvdpbe/public_html/wis/tmp/json/testtypes.php on line 31
 [10-Dec-2013 21:33:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/tvdpbe/public_html/wis/tmp/json/testtypes.php on line 31
 [10-Dec-2013 21:34:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/tvdpbe/public_html/wis/tmp/json/testtypes.php on line 31
+[11-Dec-2013 23:07:48 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/tvdpbe/public_html_wis/json/events.php on line 53
+[11-Dec-2013 23:09:02 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/tvdpbe/public_html_wis/json/events.php on line 53
+[11-Dec-2013 23:11:23 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/tvdpbe/public_html_wis/json/events.php on line 53
+[11-Dec-2013 23:14:59 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/tvdpbe/public_html_wis/json/events.php on line 53
+[11-Dec-2013 23:15:06 Europe/Berlin] PHP Notice:  Undefined index: address in /home/tvdpbe/public_html_wis/json/events.php on line 86
+[11-Dec-2013 23:15:06 Europe/Berlin] PHP Notice:  Undefined variable: db in /home/tvdpbe/public_html_wis/json/events.php on line 53

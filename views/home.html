@@ -1,3 +1,31 @@
+<div class="fb_reset" id="fb-root">
+    <div style=
+                 "position: absolute; top: -10000px; height: 0px; width: 0px;">
+        <div>
+            <iframe frameborder="0" id="fb_xdm_frame_http" name=
+                    "fb_xdm_frame_http" scrolling="no" src=
+                            "http://static.ak.facebook.com/connect/xd_arbiter.php?version=28#channel=f2d9ebdcc&amp;channel_path=%2Fwis%2F%3Ffb_xd_fragment%23xd_sig%3Df36250d928%26&amp;origin=http%3A%2F%2Ftvdp.be"
+                    style="border: none;" title=
+                    "Facebook Cross Domain Communication Frame"></iframe><iframe frameborder="0"
+                                                                                 id="fb_xdm_frame_https" name="fb_xdm_frame_https" scrolling=
+                "no" src=
+                                                                                         "https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28#channel=f2d9ebdcc&amp;channel_path=%2Fwis%2F%3Ffb_xd_fragment%23xd_sig%3Df36250d928%26&amp;origin=http%3A%2F%2Ftvdp.be"
+                                                                                 style="border: none;" title=
+                "Facebook Cross Domain Communication Frame"></iframe>
+        </div>
+    </div>
+
+    <div style=
+                 "position: absolute; top: -10000px; height: 0px; width: 0px;"></div>
+</div>
+<script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="container" data-ng-init="">
 	<div class="row">
@@ -48,7 +76,7 @@
 			<div class="row" id="theEvents" style="height:300px;overflow:scroll; margin-left:3px; margin-right:15px">
 
 				<div id="accordion" >
-					<h3 ng-repeat-start="event in events |filter:search | isStatus:st">{{event.title}}</h3>
+					<h3 ng-repeat-start="event in events |filter:search | isStatus:st">{{event.title}}-{{event.startdatetime }}</h3>
 					<div ng-repeat-end testdirective="">
 						<img src="img/u/{{event.image}}" style="max-height:50%; max-width:40%;" float:left ">
 						<p style="float:right ">
@@ -74,14 +102,42 @@
 
                         <div id="map_home"  style="height:200px; width:150px; margin: 0 auto ">
                         </div>
+                        <div id="panel">
+                            <b>Mode of Travel: </b>
+                            <select id="mode" onchange="calcRoute();">
+                                <option value="DRIVING">Driving</option>
+                                <option value="WALKING">Walking</option>
+                                <option value="BICYCLING">Bicycling</option>
+                                <option value="TRANSIT">Transit</option>
+                            </select>
+                        </div>
+                        <b>Where:</b>
+                        <div id="streetnr">
+                            Vrijheidslaan 2
+                        </div>
+
+                        <div id="cityencode">
+                            1000 Brussel
+                        </div>
+
+                        <div>
+                            Belgium
+                        </div>
 					</div>
-					<div class="col-sm-6 " id="description " style="overflow:scroll; height:210px ">
-					On this site you can view, add, rate and comment on events that are happening in Brussels.</br>
+					<div class="col-sm-6 " id="description " >
+					    <div style="overflow:scroll; height:210px ">On this site you can view, add, rate and comment on events that are happening in Brussels.</br>
 					The events could be a multitude of things like parties, good food places, cultural events, ...</br>
-					All these events are PUBLIC this means that everybody can see and attend them. 
+					All these events are PUBLIC this means that everybody can see and attend them.
+                        </div>
+                        <div  style="overflow:auto; height:100px;">
+                            <!--<div class="fb-comments" data-href="<?php echo 'http://myurl.com?id=' . $_GET['id']; ?>" data-width="470" data-num-posts="5"></div>
+-->
+                            <div class="fb-comments" data-href="http://www.tvdp.be/wis" data-width="300" data-numposts="5" data-colorscheme="light">
+                            </div>
+                        </div>
 						</div>
 					<div class="col-sm-3 " id="image ">
-						<img src="wulogo2.png " style="max-height:50%; max-width:40% ">
+						<img src="img/logo.png " style="max-height:50%; max-width:40% ">
 						<div id="rating ">
 							 <b>rating :</b></br>
 							<fieldset class="rating ">
@@ -114,36 +170,15 @@
 							<div id="date">
 							</div>
 						</div>
-						
-						
+
+                        <div id="place " class="col-sm-3">
+                            <input type="button" id="addCalendarEvent" class="btn-info" value="add to your calendar" />
+
+                        </div>
 						
 					</div>
 				</div>
-				<div class="row " style="overflow:auto; height:100px;padding-left:20px ">
-						<div class="col-sm-3">
-						<input type="button" id="addCalendarEvent" class="btn-info" value="add to your calendar" />
-					</div>
-						<div class="col-sm-6" style="overflow:auto; height:100px;">
-							<div class="fb-comments" data-href="http://www.tvdp.be/wis" data-width="300" data-numposts="5" data-colorscheme="light">
-							</div>
-						</div>
-						<div id="place " class="col-sm-3">
-							<b>Where:</b> 
-							<div id="streetnr">
-							Vrijheidslaan 2
-							</div>
-							
-							<div id="cityencode">
-							1000 Brussel
-							</div>
-							
-							<div>
-							Belgium
-							</div>
-							
-							
-						</div>
-				</div>
+
 			</div>
 		</div>
 	</div>
