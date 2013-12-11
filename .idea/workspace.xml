@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74aced80-4a49-4ecb-afd7-19b9861229e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/culture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/food.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/me.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/party.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/zethierphp's" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ajsc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/ca.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/calendar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/css/calendarview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/css/calendarview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/calendarview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/calendarview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/calmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/ce.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/error_log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/css/styles/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/css/styles/form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fullcalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/fullcalendar.print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/gcal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/vendor/imageinfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/jotform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/jotform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/vendor/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/vendor/json2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/css/styles/nova.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/protoplus-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/protoplus-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/protoplus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/protoplus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createa/js/prototype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/createe/js/prototype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/testtypes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/wis.tvdp.be.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bss.css" afterPath="$PROJECT_DIR$/css/bss.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wis.tvdp.be.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +29,7 @@
       <file leaf-file-name="bss.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="97290">
+            <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="97305">
               <folding />
             </state>
           </provider>
@@ -112,6 +58,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ajsc.js" />
         <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/css/bss.css" />
       </list>
     </option>
   </component>
@@ -369,7 +316,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="970" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08342857" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,7 +324,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -399,7 +346,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Test commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit and push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -418,7 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="10" selection-start="46" selection-end="127" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,14 +416,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="97290">
+        <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.32374102" vertical-offset="0" max-vertical-offset="97305">
           <folding />
         </state>
       </provider>
