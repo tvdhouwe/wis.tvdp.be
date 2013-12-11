@@ -1,0 +1,24 @@
+{
+  "events": [
+{
+    "name": "naam1",
+    "more": "Smith"
+},
+{
+    "name": "naam2",
+    "more": "Smith2"
+},
+{
+    "name": "naam3",
+    "more": "Smith3"
+},
+{
+    "name": "naam4",
+    "more": "Smith4"
+},
+{
+    "name": "naam5",
+    "more": "Smith5"
+}
+]
+}
