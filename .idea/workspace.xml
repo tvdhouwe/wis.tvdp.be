@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74aced80-4a49-4ecb-afd7-19b9861229e1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/ca.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/css/calendarview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/css/styles/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/calendarview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/jotform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/protoplus-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/protoplus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/vendor/imageinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createa/js/vendor/json2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/ce.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/css/calendarview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/css/styles/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/css/styles/nova.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/calendarview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/jotform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/protoplus-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/protoplus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/prototype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/createe/js/vendor/json2.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ajsc.js" afterPath="$PROJECT_DIR$/js/ajsc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/calmap.js" afterPath="$PROJECT_DIR$/js/calmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bss.css" afterPath="$PROJECT_DIR$/css/bss.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/error_log" afterPath="$PROJECT_DIR$/json/error_log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json/events.php" afterPath="$PROJECT_DIR$/json/events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gmaps.js" afterPath="$PROJECT_DIR$/js/gmaps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.html" afterPath="$PROJECT_DIR$/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/intro.html" afterPath="$PROJECT_DIR$/views/intro.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/signup.html" afterPath="$PROJECT_DIR$/views/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wis.tvdp.be.iws" />
@@ -30,56 +57,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bss.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/bss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="97305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ajsc.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ajsc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="3630">
+            <state line="195" column="29" selection-start="4760" selection-end="4760" vertical-scroll-proportion="-17.807692" vertical-offset="2462" max-vertical-offset="4740">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home.html">
+      <file leaf-file-name="signup.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="125" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-13.75" vertical-offset="840" max-vertical-offset="2880">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dt.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/dt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json/events.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="46" selection-start="0" selection-end="6031" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3315">
+            <state line="23" column="92" selection-start="899" selection-end="1062" vertical-scroll-proportion="0.33012378" vertical-offset="105" max-vertical-offset="2025">
               <folding />
             </state>
           </provider>
@@ -103,14 +93,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/gmaps.js" />
-        <option value="$PROJECT_DIR$/views/intro.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/bss.css" />
-        <option value="$PROJECT_DIR$/js/ajsc.js" />
-        <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/json/dt.php" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/json/events.php" />
+        <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/js/resizer.js" />
+        <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/js/gmaps.js" />
+        <option value="$PROJECT_DIR$/css/bss.css" />
+        <option value="$PROJECT_DIR$/views/intro.html" />
+        <option value="$PROJECT_DIR$/js/ajsc.js" />
+        <option value="$PROJECT_DIR$/views/signup.html" />
       </list>
     </option>
   </component>
@@ -174,7 +167,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,37 +237,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wis.tvdp.be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wis.tvdp.be" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
+    <property name="recentsLimit" value="5" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="wis.tvdp.be" serverId="e4d5cc74-c949-4657-bc0e-3c56363266a7">
     <servers>
@@ -299,14 +279,6 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -317,15 +289,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -377,30 +357,34 @@
       <created>1386797205910</created>
       <updated>1386797205910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" datum in lijst events krijgen">
+      <created>1386803392563</created>
+      <updated>1386803392563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="970" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08342857" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08352941" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18229167" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19316968" sideWeight="0.9164706" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -422,20 +406,25 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/json/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="41" selection-start="2364" selection-end="2376" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="3435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="126" selection-start="2943" selection-end="2943" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="3315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2010">
           <folding>
-            <marker date="1386793233000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/intro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="46" selection-end="127" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1386880708000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -449,36 +438,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="98" selection-start="539" selection-end="539" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1875">
-          <folding>
-            <marker date="1386793233000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gmaps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="5" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.49933246" vertical-offset="661" max-vertical-offset="2265">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/calmap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2205" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json/events.php">
+    <entry file="file://$PROJECT_DIR$/json/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="46" selection-start="0" selection-end="6031" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3315">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/dt.php">
@@ -488,33 +455,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="125" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-13.75" vertical-offset="840" max-vertical-offset="2880">
+        <state line="103" column="0" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="1875">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1386880708000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/ajsc.js">
+    <entry file="file://$PROJECT_DIR$/json/events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="2" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="3630">
+        <state line="81" column="41" selection-start="2364" selection-end="2376" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="3435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1230">
+          <folding>
+            <marker date="1386884414000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="53" selection-start="5633" selection-end="5633" vertical-scroll-proportion="0.0" vertical-offset="1112" max-vertical-offset="3000">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gmaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="2490">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="16852" selection-end="16852" vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="97305">
+        <state line="4095" column="31" selection-start="95433" selection-end="95433" vertical-scroll-proportion="-2.8076923" vertical-offset="61352" max-vertical-offset="97245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/intro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ajsc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="29" selection-start="4760" selection-end="4760" vertical-scroll-proportion="-17.807692" vertical-offset="2462" max-vertical-offset="4740">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="92" selection-start="899" selection-end="1062" vertical-scroll-proportion="0.33012378" vertical-offset="105" max-vertical-offset="2025">
           <folding />
         </state>
       </provider>

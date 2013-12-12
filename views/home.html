@@ -29,7 +29,7 @@
 
 <div class="container" data-ng-init="">
 	<div class="row">
-		<div  class="col-sm-4 notepad" >
+		<div  class="col-sm-4 notepad">
 			<div class="row" style="padding-bottom:13px">
 				<div class="col-sm-12" style="margin:none; padding:none; vertical-align:bottom">
 					<form method="get" >
@@ -41,24 +41,29 @@
 			<div class="row">
 				<div class="col-sm-12" >
 					<form style="padding-bottom:5px">
-						only if: <input type="checkbox" name="food" ng-model="st.food" ng-checked="true"  ng-true-value="1" ng-false-value="0" >
-						<img src="img/food.png" style="max-height:20px; max-width:20px" title="food">
+						must have<input type="checkbox" name="food" ng-model="st.food" ng-checked="true"  ng-true-value="1" ng-false-value="0" >
+						<img src="img/food.png" style="max-height:20px; max-width:20px" title="food" alt="food">
 						<input type="checkbox" name="party" ng-model="st.party" ng-checked="true"   ng-true-value="1" ng-false-value="0" >
-						<img src="img/party.png" style="max-height:20px; max-width:20px" title="party">
+						<img src="img/party.png" style="max-height:20px; max-width:20px" title="party" alt="party">
 						<input type="checkbox" name="culture"  ng-model="st.culture" ng-checked="true"  ng-true-value="1" ng-false-value="0"  >
-						<img src="img/culture.png" style="max-height:20px; max-width:20px" title="culture">
+						<img src="img/culture.png" style="max-height:20px; max-width:20px" title="culture" alt="culture">
 					</form>
 				<!--</div>
 				<div class="col-sm-7" style="margin:none; padding:none;" align="left">
 					<div class="col-xs-7" style="size:inherit" >-->
 
-						<select>
-							<option value="date">date</option>
-							<option value="rating">rating</option>
-							<option value="distance">distance</option>
-							<option value="price">price</option>
-							<option value="name">name</option>
+						<select  ng-init="sortRes=" ng-model="sortRes">
+							<option value="">date</option>
+							<option value="title">Name A-Z</option>
+                            <option value="!title">Name Z-A</option>
 						</select>
+                    limit to:<select ng-init="limitRes=5" ng-model="limitRes">
+                    <option value="5" ng-selected="">5 results</option>
+                    <option value="15">15 results</option>
+                    <option value="20">20 results</option>
+                    <option value="25">25 results</option>
+                    <option value="50">50 results</option>
+                </select>
 					<!--</div>
 					<div class="col-xs-5" align="left">-->
 						<button type="button" class="btn btn-info btn-xs">
@@ -73,35 +78,38 @@
 
 				</div>
 			</div>
-			<div class="row" id="theEvents" style="height:300px;overflow:scroll; margin-left:3px; margin-right:15px">
+			<div class="row" id="theEvents" style="max-height:250%;overflow:scroll; margin-left:3px; margin-right:15px" ng-controller="eventBrowser">
 
 				<div id="accordion" >
-					<h3 ng-repeat-start="event in events |filter:search | isStatus:st">{{event.title}}-{{event.startdatetime }}</h3>
+					<h3 ng-repeat-start="event in events | orderBy:sortRes | filter:search | isStatus:st |limitTo:limitRes ">{{event.title}}<div style="float: right">{{event.startdatetime | dateInMillis | date: 'd MMM H:mm'}}</div></h3>
 					<div ng-repeat-end testdirective="">
-						<img src="img/u/{{event.image}}" style="max-height:50%; max-width:40%;" float:left ">
-						<p style="float:right ">
-							 {{event.description}} </br>{{event.combi}}</br>
+                        <img src="img/u/{{event.image}}" style=" width:64px; float:left;">
+						<p style="float:right ; width:170px">
+							 {{event.description| limitTo:100}}... <a href=""javascript:void(0)" ng-click="setReadEvent(event.idevents)"class="seemore " style="color:#0072bc ">more</a></br>
 							 <img src="img/food.png" ng-show="{{event.food}}" style="max-height:20px; max-width:20px" title="food">
 							 <img src="img/party.png" ng-show="{{event.party}}" style="max-height:20px; max-width:20px" title="food">
 							 <img src="img/culture.png" ng-show="{{event.culture}}" style="max-height:20px; max-width:20px" title="food">
-							<a href='#' class="seemore " style="color:#0072bc "> see more</a>
-							<h6>Posted by <a href="#/profile?id={{event.userid}}">{{event.username}}</a></h6>
+
+
 						</p>
+                        <br style=" clear: both;" />
+                        <div style="max-width: 100%"><h6 style="float:right">Posted by <a href="#/profile?id={{event.userid}}">{{event.username}}</a></h6></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-8 ">
-			<div class="notepad">
+		<div class="col-sm-8 "  ng-model="readEvent">
+			<div class="notepad" >
 				<div id="title ">
-					<h4>Welcome to What's up Brussel</h4> Brussels, welcome, thetags
-					
+					<h4>{{readEvent.title}}</h4> Brussels, welcome, thetags
+
 				</div>
 				<div class="row ">
 					<div class="col-sm-3 " id="maps ">
 
                         <div id="map_home"  style="height:200px; width:150px; margin: 0 auto ">
                         </div>
+                        <h6 id="map_alert"></h6>
                         <div id="panel">
                             <b>Mode of Travel: </b>
                             <select id="mode" onchange="calcRoute();">
@@ -113,21 +121,19 @@
                         </div>
                         <b>Where:</b>
                         <div id="streetnr">
-                            Vrijheidslaan 2
+                            {{readEvent.addressrule1}}
                         </div>
 
                         <div id="cityencode">
-                            1000 Brussel
+                            {{readEvent.addressrule2}}
                         </div>
 
                         <div>
-                            Belgium
+                            {{readEvent.addressrule3}}
                         </div>
 					</div>
 					<div class="col-sm-6 " id="description " >
-					    <div style="overflow:scroll; height:210px ">On this site you can view, add, rate and comment on events that are happening in Brussels.</br>
-					The events could be a multitude of things like parties, good food places, cultural events, ...</br>
-					All these events are PUBLIC this means that everybody can see and attend them.
+					    <div style="overflow:scroll; height:210px ">{{readEvent.description}}
                         </div>
                         <div  style="overflow:auto; height:100px;">
                             <!--<div class="fb-comments" data-href="<?php echo 'http://myurl.com?id=' . $_GET['id']; ?>" data-width="470" data-num-posts="5"></div>
@@ -166,7 +172,7 @@
 						</div>
 						<div >
 							</br>
-							<b>when: </b>
+							<b>when: </b>{{readEvent.startdatetime | dateInMillis | date: 'd MMM H:mm'}}
 							<div id="date">
 							</div>
 						</div>
@@ -182,5 +188,7 @@
 			</div>
 		</div>
 	</div>
+
 </div>
+
 

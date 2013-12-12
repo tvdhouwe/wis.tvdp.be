@@ -63,8 +63,9 @@ function read_event($idevent) {
 
 	// Query on 'idevent'
 	$sql = "
-SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture, username 
-FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
+SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture, username,streetname, number, postalcode, city, country
+FROM events E INNER JOIN users  U on (E.createdby = U.idusers)
+INNER JOIN addresses A on (A.idaddresses = E.address)
 WHERE idevents = $idevent
 ";
 	$result = mysql_query($sql) or die("Could not query\n$sql\n$result");
@@ -87,10 +88,16 @@ WHERE idevents = $idevent
 		'food' 			=> $row['food'],
 		'party' 		=> $row['party'],
 		'culture' 		=> $row['culture'],
-		'username' 		=> $row['username']
+		'username' 		=> $row['username'],
+		'address'       => $row['streetname'].' '.$row['number'].', '.$row['postalcode'].' '.$row['city'].', '.$row['country'],
+		'addressrule1'       => $row['streetname'].' '.$row['number'],
+		'addressrule2'       => $row['postalcode'].' '.$row['city'],
+		'addressrule3'       => $row['country']
 		);
 		// Encode and echo the data
+		echo '{"events":';
 		echo json_encode($data);
+		echo '}';
 		
 	} else {
 		// Nothing returned? Echo empty JSON
@@ -106,13 +113,13 @@ function browse_events() {
 
 	// Query the information of events where start date lies in future
 	$sql = "
-SELECT title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, address, food, party, culture, username
+SELECT title, description, image, startdatetime, enddatetime, pricerange, createdby, address, food, party, culture, username
 FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
 WHERE startdatetime > '" . date("Y-m-d H:i:s") . "'
 ORDER BY startdatetime ASC
 LIMIT 0, 50
 ";
-	$sql = "SELECT title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, food, party, culture
+	$sql = "SELECT idevents, title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture,username
 FROM events E INNER JOIN users  U on (E.createdby = U.idusers) 
 WHERE startdatetime > '" . date("Y-m-d H:i:s") . "'
 ORDER BY startdatetime ASC
@@ -137,6 +144,7 @@ LIMIT 0,50
 			}
 			
 			$data = array(
+			'idevents' 		=> $row['idevents'],
 			'title' 		=> $row['title'],
 			'description' 	=> $row['description'],
 			'image' 		=> $row['image'],
@@ -147,8 +155,8 @@ LIMIT 0,50
 			// 'address' 		=> $row['address'],
 			'food' 			=> $row['food'],
 			'party' 		=> $row['party'],
-			'culture' 		=> $row['culture']//,
-			// 'username' 		=> $row['username']
+			'culture' 		=> $row['culture'],
+		    'username' 		=> $row['username']
 		);
 			// Encode and echo the data
 			echo json_encode($data);
@@ -188,7 +196,7 @@ function create_event($jdec) {
 	$culture =  	ifset($jdec, 'culture', '0');
 	
 	$sql = "
-INSERT INTO events (title, description, image, UNIX_TIMESTAMP(STR_TO_DATE(startdatetime,'%Y-%m-%d %T')) AS startdatetime, UNIX_TIMESTAMP(STR_TO_DATE(enddatetime,'%Y-%m-%d %T')) AS endatetime, pricerange, createdby, food, party, culture)
+INSERT INTO events (title, description, image, startdatetime, enddatetime, pricerange, createdby, food, party, culture)
        VALUES ('$title', '$description', '$image', '$startdatetime', '$enddatetime', '$pricerange', $createdby, $food, $party, $culture)
 	   ";
 	   

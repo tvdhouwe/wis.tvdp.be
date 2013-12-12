@@ -1,15 +1,48 @@
+<div class="container clearfix">
+    <div class="row">
+        <div class="col-sm-4  main pull-right">
+
+
+            <h3>Sign up</h3>
+            <h4>and use our site to the full of it's potential</h4>
+
+
+
+            <body>
+            <div ng-controller="Controller">
+                <form name="form" class="css-form" novalidate>
+                    Name:
+                    <input type="text" ng-model="user.name" name="uName" required /><br />
+                    E-mail:
+                    <input type="email" ng-model="user.email" name="uEmail" required/><br />
+                    <div ng-show="form.uEmail.$dirty && form.uEmail.$invalid">Invalid:
+                        <span ng-show="form.uEmail.$error.required">Tell us your email.</span>
+                        <span ng-show="form.uEmail.$error.email">This is not a valid email.</span>
+                    </div>
+
+                    Gender: <input type="radio" ng-model="user.gender" value="male" />male
+                    <input type="radio" ng-model="user.gender" value="female" />female<br />
+
+                    <input type="checkbox" ng-model="user.agree" name="userAgree" required />
+                    I agree: <input ng-show="user.agree" type="text" ng-model="user.agreeSign"
+                                    required /><br />
+                    <div ng-show="!user.agree || !user.agreeSign">Please agree and sign.</div>
+
+                    <button ng-click="reset()" ng-disabled="isUnchanged(user)">RESET</button>
+                    <button ng-click="update(user)"
+                            ng-disabled="form.$invalid || isUnchanged(user)">SAVE</button>
+                </form>
+
 <form class="form-horizontal">
 <fieldset>
 
-<!-- Form Name -->
-<legend>Sign Up</legend>
 
 <!-- Text input-->
 <div class="control-group">
   <label class="control-label" for="new_username"></label>
   <div class="controls">
-    <input id="new_username" name="new_username" type="text" placeholder="Username" class="input-xxlarge" required="">
-    
+    <input id="new_username" type="text" placeholder="Username" class="input-xxlarge" ng-model="user.name" name="uName" required >
+
   </div>
 </div>
 
@@ -18,7 +51,7 @@
   <label class="control-label" for="new_firstname"></label>
   <div class="controls">
     <input id="new_firstname" name="new_firstname" type="text" placeholder="First Name" class="input-large" required="">
-    
+
   </div>
 </div>
 
@@ -27,7 +60,7 @@
   <label class="control-label" for="new_lastname"></label>
   <div class="controls">
     <input id="new_lastname" name="new_lastname" type="text" placeholder="Last Name" class="input-large" required="">
-    
+
   </div>
 </div>
 
@@ -35,8 +68,8 @@
 <div class="control-group">
   <label class="control-label" for="new_email"></label>
   <div class="controls">
-    <input id="new_email" name="new_email" type="text" placeholder="Your Email" class="input-xxlarge" required="">
-    
+    <input id="new_email"  placeholder="Your Email" class="input-xxlarge" ng-model="user.email" name="uEmail" required>
+
   </div>
 </div>
 
@@ -45,7 +78,7 @@
   <label class="control-label" for="new_emailcheck"></label>
   <div class="controls">
     <input id="new_emailcheck" name="new_emailcheck" type="text" placeholder="Re-enter Email" class="input-xxlarge" required="">
-    
+
   </div>
 </div>
 
@@ -54,7 +87,7 @@
   <label class="control-label" for="new_password"></label>
   <div class="controls">
     <input id="new_password" name="new_password" type="password" placeholder="New Password" class="input-large" required="">
-    
+
   </div>
 </div>
 
@@ -63,7 +96,7 @@
   <label class="control-label" for="new_passwordcheck"></label>
   <div class="controls">
     <input id="new_passwordcheck" name="new_passwordcheck" type="password" placeholder="Re-enter New Password" class="input-large" required="">
-    
+
   </div>
 </div>
 
@@ -77,3 +110,21 @@
 
 </fieldset>
 </form>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4  side pull-left">
+
+
+
+
+
+
+
+<img src="img/logo.png" />
+
+
+        </div>
+
+
+</div>
+    </div>

@@ -69,53 +69,8 @@
 	<!-- Placeholder for view -->
 <div data-ng-view=""></div>
 	
-	<!-- BEGIN FOOTER -->
-	<div class="navbar navbar-default navbar-fixed-bottom" data-ng-controller="footer">
-	<p class="navbar-text pull-left">
-		 WIS project Group 3
-	</p>
-	<nav>
-	<ul>
-		<li id="createe">
-		<a  id="create-trigger" href="">Create event<span>&#x25B2;</span></a>
-		<div id="create-content">
-			<iframe id="createEventFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="createe/ce.html" frameborder="0"  scrolling="yes">
-			</iframe>
-			<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
-		</div>
-		</li>
-		<li id="login">
-		<a id="login-trigger" href="">
-		Log in <span>&#x25B2;</span>
-		</a>
-		<div id="login-content">
-			<form>
-				<fieldset id="inputs">
-					<input id="username" type="email" name="Email" placeholder="Your email address" required>
-					<input id="password" type="password" name="Password" placeholder="Password" required>
-				</fieldset>
-				<fieldset id="actions">
-					<!--<input type="submit" id="submit" value="Log in">-->
-					<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button></br>
-					<label><input type="checkbox" checked="checked"> Keep me signed in</label>
-				</fieldset>
-			</form>
-		</div>
-		</li>
-		<li id="signup">
-		<a href="" id="signup-trigger">Sign up FREE<span>&#x25B2;</span></a>
-		<div id="signup-content">
-			
-		<iframe  id="createAccountFrame" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="createa/ca.html" frameborder="0" scrolling="yes">
-		</iframe>
-		<script type="text/javascript">window.handleIFrameMessage = function(e) {var args = e.data.split(":");var iframe = document.getElementById("JotFormIFrame");if (!iframe)return;switch (args[0]) {case "scrollIntoView":iframe.scrollIntoView();break;case "setHeight":iframe.style.height = args[1] + "px";break;}};if (window.addEventListener) {window.addEventListener("message", handleIFrameMessage, false);} else if (window.attachEvent) {window.attachEvent("onmessage", handleIFrameMessage);}</script>
-		</div>
-		</li>
-	</ul>
-	</nav>
-	
-</div>
-	
+
+
 	
 	
 </body>
